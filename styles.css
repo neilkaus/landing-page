@@ -11,7 +11,7 @@ body {
     justify-content: space-around;
     background-color: #1f2937;
     align-items: center;
-    padding: 16px;
+    padding-top: 8px;
 }
 
 .header h1 {
@@ -83,7 +83,7 @@ body {
 
 .information {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .information h2 {
@@ -109,4 +109,34 @@ body {
     height: 150px;
     border: solid #3882f6 3px;
     border-radius: 8px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote-author{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    align-self: flex-end;
 }
