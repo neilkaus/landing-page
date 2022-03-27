@@ -179,3 +179,12 @@ body {
     padding: 0px;
     color: #e5e7eb;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
